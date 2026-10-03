@@ -64,14 +64,14 @@ export default function Kontakt() {
 
           <div className="w-full overflow-hidden rounded-2xl">
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d927.2438642299956!2d8.094558020450005!3d52.098360068177676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9f3a6ddf83087%3A0xf53c676fd0b1542a!2sstolz.selbstgemacht!5e1!3m2!1sde!2sde!4v1791018945647!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
-    width="100%"
-    height="400"
-    style={{ border: 0 }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  />
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d927.2438642299956!2d8.094558020450005!3d52.098360068177676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9f3a6ddf83087%3A0xf53c676fd0b1542a!2sstolz.selbstgemacht!5e1!3m2!1sde!2sde!4v1791018945647!5m2!1sde!2sde"
+  width="100%"
+  height="400"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="strict-origin-when-cross-origin"
+/>
 </div>
         </div>
       </section>
