@@ -2,68 +2,129 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <main>
+      <section className="hero">
+        <div className="hero-content">
+          <p className="eyebrow">stolz.selbstgemacht</p>
+
+          <h1>
+            Selbstgenähte Kleidung
+            <br />
+            & Accessoires
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <p className="hero-text">
+            Schönes, Selbstgemachtes und mit viel Sorgfalt Genähtes.
+            Entdecke meine Auswahl direkt im Selbstbedienungshäuschen.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+
+          <a href="/kleidung" className="button">
+            Kleidung & Accessoires entdecken
           </a>
         </div>
-      </main>
-    </div>
+
+<div className="hero-image">
+  <Image
+    src="/images/haeuschen.jpg"
+    alt="Das Selbstbedienungshäuschen von stolz.selbstgemacht"
+    width={1084}
+    height={1448}
+    priority
+    className="hero-photo"
+  />
+</div>
+      </section>
+
+      <section className="welcome">
+        <p className="eyebrow">Willkommen bei</p>
+
+        <h2>stolz.selbstgemacht</h2>
+
+        <p>
+          In meinem Selbstbedienungshäuschen findest du selbstgenähte
+          Kleidung und Accessoires für Groß und Klein.
+        </p>
+
+        <p>
+          Jedes Stück wird von mir selbst gefertigt und mit viel
+          Sorgfalt hergestellt.
+        </p>
+      </section>
+
+      <section className="categories">
+        <div className="category-card">
+          <div className="category-icon">✂</div>
+
+          <h2>Kleidung</h2>
+
+          <p>
+            Selbstgenähte Kleidung für Babys, Kinder und Erwachsene.
+          </p>
+
+          <a href="/kleidung">Entdecken →</a>
+        </div>
+
+        <div className="category-card">
+          <div className="category-icon">♡</div>
+
+          <h2>Accessoires</h2>
+
+          <p>
+            Praktische und schöne selbstgenähte Begleiter für den
+            Alltag.
+          </p>
+
+          <a href="/kleidung">Entdecken →</a>
+        </div>
+
+        <div className="category-card">
+          <div className="category-icon">⌂</div>
+
+          <h2>Selbstbedienung</h2>
+
+          <p>
+            Vorbeikommen, stöbern, aussuchen und ganz unkompliziert
+            selbst bezahlen.
+          </p>
+
+          <a href="/kontakt">Anfahrt →</a>
+        </div>
+      </section>
+            <section className="home-about">
+        <div>
+          <p className="eyebrow">Über mich</p>
+
+          <h2>Mit Freude selbstgemacht</h2>
+
+          <p>
+            Hinter stolz.selbstgemacht stecke ich und meine Leidenschaft
+            für selbstgenähte Kleidung und Accessoires.
+          </p>
+
+          <a href="/ueber-mich" className="text-link">
+            Mehr über mich →
+          </a>
+        </div>
+
+        <div className="home-about-placeholder">
+          Platz für ein Foto
+        </div>
+      </section>
+
+      <section className="home-hut">
+        <p className="eyebrow">Vorbeischauen</p>
+
+        <h2>Mein Selbstbedienungshäuschen</h2>
+
+        <p>
+          Komm gerne vorbei, stöbere in Ruhe durch die aktuellen
+          Sachen und entdecke selbstgenähte Einzelstücke.
+        </p>
+
+        <a href="/kontakt" className="button">
+          Kontakt & Anfahrt
+        </a>
+      </section>
+    </main>
   );
 }
