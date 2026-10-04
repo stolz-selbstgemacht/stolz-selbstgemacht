@@ -107,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className="home-about-placeholder">
-          Platz für ein Foto
+          Foto folgt :)
         </div>
       </section>
 

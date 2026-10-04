@@ -852,3 +852,257 @@ footer a:hover {
     height: 48px;
   }
 }
+
+
+/* =====================================================
+   RESPONSIVE-FIX: Smartphones und kleine Tablets
+   Ergänzt die vorhandenen Regeln, ohne das Farbschema
+   oder das Desktop-Layout grundsätzlich zu verändern.
+   ===================================================== */
+
+html {
+  width: 100%;
+  max-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: clip;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+main {
+  min-width: 0;
+}
+
+.hero,
+.about,
+.home-about,
+.products,
+.contact-grid,
+.categories,
+.product-gallery,
+.product-card,
+.product-content,
+.contact-card,
+.welcome,
+.page-intro {
+  min-width: 0;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+}
+
+@media (max-width: 800px) {
+  main {
+    padding: 36px 18px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding: 35px 18px;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
+    letter-spacing: -0.5px;
+  }
+
+  .hero-text {
+    font-size: 17px;
+  }
+
+  .about,
+  .home-about {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .home-about {
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 30px 22px;
+  }
+
+  .home-about h2,
+  .home-hut h2,
+  .welcome h2 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    line-height: 1.25;
+  }
+
+  .products,
+  .contact-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-left: 18px;
+    padding-right: 18px;
+    gap: 16px;
+  }
+
+  .category-card {
+    padding: 24px 18px;
+  }
+
+  .welcome,
+  .home-hut {
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 35px 22px;
+  }
+
+  .hero-photo {
+    height: auto;
+    max-height: 380px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    height: auto;
+    min-height: 65px;
+  }
+
+  .header-inner {
+    width: 100%;
+    height: auto;
+    min-height: 65px;
+    padding: 8px 10px 8px 78px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-link {
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .logo-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+
+  .main-nav {
+    width: 100%;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 10px;
+  }
+
+  .main-nav a {
+    font-size: 13px;
+    line-height: 1.35;
+    white-space: normal;
+  }
+
+  h1 {
+    font-size: clamp(1.8rem, 7vw, 2.3rem);
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+  }
+
+  h2 {
+    font-size: clamp(1.35rem, 5.5vw, 1.8rem);
+    line-height: 1.25;
+  }
+
+  .page-intro {
+    margin-bottom: 35px;
+  }
+
+  .page-intro p:not(.eyebrow),
+  .welcome p:not(.eyebrow),
+  .home-about p:not(.eyebrow),
+  .home-hut p:not(.eyebrow),
+  .about-content p,
+  .contact-card p {
+    font-size: 16px;
+  }
+
+  .product-content {
+    padding: 18px;
+  }
+
+  .product-content h2 {
+    font-size: 21px;
+  }
+
+  .contact-card {
+    padding: 24px 20px;
+  }
+
+  .hero-photo {
+    border-radius: 14px;
+  }
+
+  footer nav {
+    gap: 12px 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  main {
+    padding: 28px 14px;
+  }
+
+  .categories {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .hero {
+    padding: 28px 14px;
+  }
+
+  .home-about,
+  .welcome,
+  .home-hut {
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 26px 18px;
+  }
+
+  .button {
+    max-width: 100%;
+    padding: 12px 18px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+}

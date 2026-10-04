@@ -25,7 +25,7 @@ export default function Kontakt() {
 
       <section className="contact-grid">
         <div className="contact-card">
-          <h2>Kontakt</h2>
+          <h2><strong>KONTAKT</strong></h2>
 
           <p>
             <br />
@@ -56,7 +56,7 @@ export default function Kontakt() {
         </div>
 
         <div className="contact-card">
-          <h2>Anfahrt</h2>
+          <h2><strong>ANFAHRT</strong></h2>
 
           <p>
             Hier findest du mein Selbstbedienungshäuschen.

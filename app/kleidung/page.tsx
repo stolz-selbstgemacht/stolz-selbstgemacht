@@ -44,7 +44,7 @@ const produkte = [
   {
     name: "Mützen und Stirnbänder",
     beschreibung:
-      "Warme Mützen mit coolen Motiven für die kalte Jahreszeit.",
+      "Kuschelig warme, handgenähte Mützen aus weichen Stoffen – perfekt für kalte Herbst- und Wintertage. Weiche, handgenähte Stirnbänder, die angenehm wärmen und gleichzeitig ein echter Hingucker sind.",
     bilder: [
       "/images/Muetze_Blumen_1.jpg",
       "/images/Muetze_Gaense_1.jpg",
@@ -57,7 +57,7 @@ const produkte = [
 {
     name: "Handschuhe",
     beschreibung:
-      "Warme Handschuhe aus Wollfleece.",
+      "Kuschelig warme, handgenähte Handschuhe aus weichem Wollfleece – perfekt für kalte Herbst- und Wintertage.",
     bilder: [
       "/images/Handschuhe_1.jpg",
       "/images/Handschuhe_2.jpg",
@@ -68,7 +68,7 @@ const produkte = [
   {
     name: "Damenwesten",
     beschreibung:
-      "Stylische Begleiter zum Drüberziehen.",
+      "Bequeme, handgenähte Damenwesten aus hochwertigen Stoffen – vielseitig kombinierbar und perfekt für jede Jahreszeit.",
     bilder: [
       "/images/Weste_Gepard_1.jpg",
       "/images/Weste_Gepard_2.jpg",
@@ -78,7 +78,7 @@ const produkte = [
    {
     name: "Accessoires",
     beschreibung:
-      "Schlüsselanhänger, Scrunchies, Brillenetuis und vieles mehr.",
+      "Liebevoll handgenähte Accessoires wie Schlüsselanhänger, Scrunchies und Brillenetuis – praktisch, individuell und mit viel Liebe zum Detail.",
     bilder: [
       "/images/Schluesselanhaenger_0.jpg",
       "/images/Schluesselanhaenger_1.jpg",
@@ -93,7 +93,7 @@ const produkte = [
 {
     name: "Utensilos",
     beschreibung:
-      "Utensilos in verschiedenen Größen und verschiedenen Farben.",
+      "Schön aufgeräumt und immer griffbereit: liebevoll genähte Utensilos für Bad, Kinderzimmer, Schreibtisch und mehr.",
     bilder: [
       "/images/Utensilos_1.jpg",
       "/images/Utensilos_2.jpg",
@@ -104,7 +104,7 @@ const produkte = [
   {
     name: "Kosmetiktaschen",
     beschreibung:
-      "Kosmetiktaschen in verschiedenen Größen und verschiedenen Farben.",
+      "Praktische, handgenähte Kosmetiktaschen – perfekt für Kosmetik, Pflegeprodukte und kleine Alltagsbegleiter.",
     bilder: [
       "/images/Kosmetiktasche.jpg",
       "/images/Kosmetiktasche1.jpg",
@@ -120,7 +120,7 @@ const produkte = [
   {
     name: "Kulturtaschen",
     beschreibung:
-      "Kulturtaschen in verschiedenen Größen und verschiedenen Farben.",
+      "Für Reisen und unterwegs bestens geeignet: geräumige Kulturtaschen für Kosmetik, Pflegeprodukte und alles, was mit muss.",
     bilder: [
       "/images/Kulturtasche1.jpg",
       "/images/Kulturtasche2.jpg",
@@ -130,7 +130,7 @@ const produkte = [
     {
     name: "Reiseetuis",
     beschreibung:
-      "Reiseetuis in verschiedenen Größen und verschiedenen Farben.",
+      "Praktische, handgenähte Reiseetuis – ideal für unterwegs, um kleine Dinge ordentlich und griffbereit aufzubewahren.",
     bilder: [
       "/images/Reiseetui.jpg",
       "/images/Reiseetui1.jpg",
@@ -141,7 +141,7 @@ const produkte = [
    {
     name: "Aufbewahrung für Stifte",
     beschreibung:
-      "Aufbewahrung für Stifte in verschiedenen Größen und verschiedenen Farben.",
+      "Alles griffbereit und schön verstaut: liebevoll genähte Stifteetuis für Schule, Büro und unterwegs.",
     bilder: [
       "/images/Stifteetui.jpg",
       "/images/Stifteetui1.jpg",
